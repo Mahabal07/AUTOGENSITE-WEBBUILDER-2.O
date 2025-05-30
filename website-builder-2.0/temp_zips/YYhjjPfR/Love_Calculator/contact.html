@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us at Love Calculator. We are here to help you with all your love calculation needs.">
+    <title>Contact Us - Love Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for smooth animations */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="global-style.css">
+</head>
+
+<body class="bg-gray-100">
+<nav class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div class="relative flex items-center justify-between h-16">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                    <!-- Mobile menu button-->
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-500" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-xl font-bold">My Website</h1>
+                    </div>
+                    <div class="hidden sm:block sm:ml-6">
+                        <ul class="flex space-x-4">
+                            <li><a href="index.html" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                            <li><a href="about.html" class="text-gray-700 hover:text-gray-900">About</a></li>
+                            <li><a href="contact.html" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state -->
+        <div class="sm:hidden" id="mobile-menu">
+            <ul class="flex flex-col space-y-1 px-2 pb-3">
+                <li><a href="index.html" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                <li><a href="about.html" class="text-gray-700 hover:text-gray-900">About</a></li>
+                <li><a href="contact.html" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="bg-red-600 text-white p-4">
+        <h1 class="text-3xl font-bold text-center">Love Calculator</h1>
+    </header>
+
+    <main class="container mx-auto p-6">
+        <section class="fade-in mb-8">
+            <h2 class="text-2xl font-semibold text-center mb-4">Get in Touch</h2>
+            <p class="text-center mb-6">We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+        </section>
+
+        <section class="fade-in mb-8">
+            <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+            <p class="mb-2"><strong>Email:</strong> <a href="mailto:support@lovecalculator.com" class="text-red-600">support@lovecalculator.com</a></p>
+            <p class="mb-2"><strong>Phone:</strong> <a href="tel:+1234567890" class="text-red-600">+1 (234) 567-890</a></p>
+            <p class="mb-2"><strong>Business Hours:</strong> Monday - Friday, 9 AM - 5 PM</p>
+            <p class="mb-2"><strong>Location:</strong> 123 Love Lane, Heart City, HC 12345</p>
+        </section>
+
+        <section class="fade-in mb-8">
+            <h3 class="text-xl font-semibold mb-4">Contact Form</h3>
+            <form action="/submit-contact" method="POST" class="bg-white p-6 rounded shadow-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-red-500 focus:ring focus:ring-red-500 focus:ring-opacity-50">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-red-500 focus:ring focus:ring-red-500 focus:ring-opacity-50">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-red-500 focus:ring focus:ring-red-500 focus:ring-opacity-50"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-red-600 text-white font-semibold py-2 rounded hover:bg-red-700 transition duration-300">Send Message</button>
+            </form>
+        </section>
+
+        <section class="fade-in mb-8">
+            <h3 class="text-xl font-semibold mb-4">Find Us Here</h3>
+            <div class="w-full h-64 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509197!2d144.9537353153165!3d-37.81627997975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11f5b7%3A0x5045675218ceed30!2s123%20Love%20Lane%2C%20Heart%20City%2C%20HC%2012345!5e0!3m2!1sen!2sus!4v1633031234567!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-red-600 text-white p-4 text-center">
+        <p>&copy; 2023 Love Calculator. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add any necessary JavaScript for interactivity here
+    </script>
+<script src="contact.js"></script>
+</body>
+
+</html>

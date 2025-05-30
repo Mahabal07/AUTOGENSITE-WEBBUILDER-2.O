@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us for any inquiries about our love app.">
+    <title>Contact Us - Love App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for smooth animations */
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
+        }
+        .fade-in.visible {
+            opacity: 1;
+        }
+    </style>
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="global-style.css">
+</head>
+<body class="bg-gray-100">
+<nav class="bg-white border-b border-gray-200 px-4 py-3">
+    <div class="container mx-auto flex items-center justify-between">
+      <!-- Logo or Brand -->
+      <a href="index.html" class="text-xl font-semibold text-gray-800">Brand</a>
+
+      <!-- Hamburger button (mobile) -->
+      <button id="menu-btn" class="md:hidden focus:outline-none" aria-label="Toggle menu">
+        <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <!-- Menu -->
+      <ul id="menu" class="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+        <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Mobile menu (shown when hamburger clicked) -->
+    <ul id="mobile-menu" class="md:hidden hidden flex-col mt-3 space-y-2 text-gray-700 font-medium px-4">
+      <li><a href="index.html" class="block py-2 hover:text-blue-600">Home</a></li>
+      <li><a href="contact.html" class="block py-2 hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4">
+            <h1 class="text-3xl font-bold text-center">Contact Us</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">We'd Love to Hear from You!</h2>
+            <p class="text-gray-700 mb-4">Whether you have questions, feedback, or just want to say hello, feel free to reach out to us using the form below.</p>
+        </section>
+
+        <section class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <form id="contact-form" action="#" method="POST" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500" placeholder="Your Email">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-2 rounded-md hover:bg-blue-700 transition duration-200">Send Message</button>
+            </form>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Contact Information</h2>
+            <p class="text-gray-700">Email: <a href="mailto:support@loveapp.com" class="text-blue-600">support@loveapp.com</a></p>
+            <p class="text-gray-700">Phone: <a href="tel:+1234567890" class="text-blue-600">+1 (234) 567-890</a></p>
+            <p class="text-gray-700">Business Hours: Mon-Fri, 9 AM - 5 PM</p>
+            <p class="text-gray-700">Location: 123 Love Lane, Heart City, CA 90210</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Find Us Here</h2>
+            <div class="w-full h-64">
+                <iframe class="w-full h-full rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509999!2d144.9537353153163!3d-37.81627997975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f0f0f0f%3A0x0!2s123%20Love%20Lane%2C%20Heart%20City%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1631234567890" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white shadow mt-8">
+        <div class="container mx-auto px-4 py-4 text-center">
+            <p class="text-gray-600">&copy; 2023 Love App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for form submission and animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                // Handle form submission logic here
+                alert('Thank you for your message!');
+                form.reset();
+            });
+        });
+    </script>
+<script src="contact.js"></script>
+</body>
+</html>
