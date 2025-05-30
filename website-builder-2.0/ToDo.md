@@ -39,10 +39,10 @@
 - [x] Enhance prompt structure
 - [x] Add image API integration
 - [x] Improve page name generation
-- [ ] Page Style Improvements
+- [x] Page Style Improvements
   - [ ] Enhance base prompt
   - [ ] Add more design variations
-  - [ ] Improve responsive design
+  - [] Improve responsive design
 - [ ] User Input Enhancement
   - [ ] Create AI chatbot for requirements
   - [ ] Add questionnaire for website details
@@ -71,3 +71,6 @@
   - [ ] API documentation
   - [ ] Architecture overview
   - [ ] Contribution guidelines
+## Updations required
+-Updating and editing the generated webpages
+-linking PROMPT- GENERATOR to webbuilder
