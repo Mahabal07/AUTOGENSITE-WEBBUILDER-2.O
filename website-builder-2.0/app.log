@@ -1,0 +1,230 @@
+2025-07-27 14:47:01,779 - INFO - Starting Flask app
+2025-07-27 14:47:01,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 14:47:01,804 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 14:49:26,433 - INFO - Starting Flask app
+2025-07-27 14:49:26,440 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 14:49:26,441 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 14:50:22,339 - INFO - 127.0.0.1 - - [27/Jul/2025 14:50:22] "GET / HTTP/1.1" 200 -
+2025-07-27 14:50:22,966 - INFO - 127.0.0.1 - - [27/Jul/2025 14:50:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 14:50:28,457 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:28,463 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-27 14:50:28,542 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-27 14:50:29,334 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,467 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,468 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,469 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,616 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,618 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,619 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,771 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,771 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,793 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:29,952 - INFO - 127.0.0.1 - - [27/Jul/2025 14:50:29] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-27 14:50:47,081 - INFO - 127.0.0.1 - - [27/Jul/2025 14:50:47] "GET / HTTP/1.1" 200 -
+2025-07-27 14:50:47,568 - INFO - 127.0.0.1 - - [27/Jul/2025 14:50:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 14:50:54,172 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,329 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,490 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,490 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,491 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,649 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,650 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,699 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,861 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,862 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:54,883 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:50:55,265 - INFO - 127.0.0.1 - - [27/Jul/2025 14:50:55] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-27 14:52:02,807 - INFO - Starting Flask app
+2025-07-27 14:52:02,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 14:52:02,815 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 14:52:10,684 - INFO - 127.0.0.1 - - [27/Jul/2025 14:52:10] "GET / HTTP/1.1" 200 -
+2025-07-27 14:52:16,193 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,196 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-27 14:52:16,287 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-27 14:52:16,449 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,575 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,575 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,576 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,718 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,718 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,870 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,877 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:16,979 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:17,129 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:52:17,283 - INFO - 127.0.0.1 - - [27/Jul/2025 14:52:17] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-27 14:58:02,416 - INFO - Starting Flask app
+2025-07-27 14:58:02,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 14:58:02,423 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 14:58:15,245 - INFO - 127.0.0.1 - - [27/Jul/2025 14:58:15] "GET / HTTP/1.1" 200 -
+2025-07-27 14:58:15,554 - INFO - 127.0.0.1 - - [27/Jul/2025 14:58:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 14:58:20,461 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:20,470 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-27 14:58:20,574 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-27 14:58:21,088 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,321 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,322 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,323 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,486 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,488 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,497 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,679 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,680 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:21,937 - DEBUG - Using selector: SelectSelector
+2025-07-27 14:58:22,146 - INFO - 127.0.0.1 - - [27/Jul/2025 14:58:22] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-27 15:15:19,113 - INFO - Starting Flask app
+2025-07-27 15:15:19,123 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 15:15:19,123 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:15:39,221 - INFO - 127.0.0.1 - - [27/Jul/2025 15:15:39] "GET / HTTP/1.1" 200 -
+2025-07-27 15:15:39,624 - INFO - 127.0.0.1 - - [27/Jul/2025 15:15:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 15:15:47,693 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:15:47,706 - DEBUG - Starting new HTTPS connection (1): image.pollinations.ai:443
+2025-07-27 15:15:48,745 - DEBUG - https://image.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 15:15:48,748 - DEBUG - Starting new HTTPS connection (1): text.pollinations.ai:443
+2025-07-27 15:15:49,697 - DEBUG - https://text.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 15:15:49,723 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 15:15:50,040 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&pipeline_tag=text-generation HTTP/1.1" 200 562236
+2025-07-27 15:15:50,275 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 15:15:50,742 - DEBUG - https://huggingface.co:443 "GET /api/models?pipeline_tag=text-to-image HTTP/1.1" 200 444128
+2025-07-27 15:15:51,163 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 15:15:51,462 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&expand%5B%5D=inferenceProviderMapping HTTP/1.1" 200 390399
+2025-07-27 15:15:51,905 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-27 15:15:51,998 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-27 15:15:52,013 - DEBUG - Starting new HTTPS connection (1): api.puter.com:443
+2025-07-27 15:15:52,685 - DEBUG - https://api.puter.com:443 "GET /puterai/chat/models/ HTTP/1.1" 200 None
+2025-07-27 15:15:52,691 - DEBUG - Starting new HTTPS connection (1): www.codegeneration.ai:443
+2025-07-27 15:15:53,048 - DEBUG - https://www.codegeneration.ai:443 "GET /activate-v2 HTTP/1.1" 200 164
+2025-07-27 15:15:53,052 - DEBUG - Starting new HTTPS connection (1): api.together.xyz:443
+2025-07-27 15:15:54,913 - DEBUG - https://api.together.xyz:443 "GET /v1/models HTTP/1.1" 200 None
+2025-07-27 15:15:57,490 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:15:59,708 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:15:59,708 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:15:59,708 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:16:01,922 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:16:01,950 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:16:02,214 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:16:53,744 - INFO - Starting Flask app
+2025-07-27 15:16:53,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 15:16:53,751 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:16:59,204 - INFO - 127.0.0.1 - - [27/Jul/2025 15:16:59] "GET / HTTP/1.1" 200 -
+2025-07-27 15:17:03,862 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:03,864 - DEBUG - Starting new HTTPS connection (1): image.pollinations.ai:443
+2025-07-27 15:17:04,469 - DEBUG - https://image.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 15:17:04,470 - DEBUG - Starting new HTTPS connection (1): text.pollinations.ai:443
+2025-07-27 15:17:05,577 - DEBUG - https://text.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 15:17:05,583 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 15:17:05,915 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&pipeline_tag=text-generation HTTP/1.1" 200 562236
+2025-07-27 15:17:06,350 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 15:17:06,837 - DEBUG - https://huggingface.co:443 "GET /api/models?pipeline_tag=text-to-image HTTP/1.1" 200 444128
+2025-07-27 15:17:07,269 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 15:17:07,574 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&expand%5B%5D=inferenceProviderMapping HTTP/1.1" 200 390399
+2025-07-27 15:17:08,019 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-27 15:17:08,109 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-27 15:17:08,121 - DEBUG - Starting new HTTPS connection (1): api.puter.com:443
+2025-07-27 15:17:09,935 - DEBUG - https://api.puter.com:443 "GET /puterai/chat/models/ HTTP/1.1" 200 None
+2025-07-27 15:17:09,940 - DEBUG - Starting new HTTPS connection (1): www.codegeneration.ai:443
+2025-07-27 15:17:10,293 - DEBUG - https://www.codegeneration.ai:443 "GET /activate-v2 HTTP/1.1" 200 164
+2025-07-27 15:17:10,294 - DEBUG - Starting new HTTPS connection (1): api.together.xyz:443
+2025-07-27 15:17:10,775 - DEBUG - https://api.together.xyz:443 "GET /v1/models HTTP/1.1" 200 None
+2025-07-27 15:17:13,032 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:15,254 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:15,254 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:15,255 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:17,481 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:17,483 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:17,505 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:19,779 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:19,815 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:19,837 - DEBUG - Using selector: SelectSelector
+2025-07-27 15:17:22,034 - INFO - 127.0.0.1 - - [27/Jul/2025 15:17:22] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-27 15:25:49,457 - INFO - Starting Flask app
+2025-07-27 15:25:49,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 15:25:49,470 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:27:09,754 - INFO - Starting Flask app
+2025-07-27 15:27:09,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 15:27:09,765 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:27:38,749 - INFO - Starting Flask app
+2025-07-27 15:27:38,757 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 15:27:38,757 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 15:28:41,967 - INFO - Starting Flask app
+2025-07-27 15:28:41,975 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 15:28:41,975 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:11:26,657 - INFO - Starting Flask app
+2025-07-27 16:11:26,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:11:26,670 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:12:10,154 - INFO - 127.0.0.1 - - [27/Jul/2025 16:12:10] "GET / HTTP/1.1" 200 -
+2025-07-27 16:12:10,334 - INFO - 127.0.0.1 - - [27/Jul/2025 16:12:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-27 16:12:15,487 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:15,493 - DEBUG - Starting new HTTPS connection (1): image.pollinations.ai:443
+2025-07-27 16:12:16,585 - DEBUG - https://image.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 16:12:16,588 - DEBUG - Starting new HTTPS connection (1): text.pollinations.ai:443
+2025-07-27 16:12:17,584 - DEBUG - https://text.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 16:12:17,602 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 16:12:17,941 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&pipeline_tag=text-generation HTTP/1.1" 200 562323
+2025-07-27 16:12:18,568 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 16:12:19,105 - DEBUG - https://huggingface.co:443 "GET /api/models?pipeline_tag=text-to-image HTTP/1.1" 200 444040
+2025-07-27 16:12:19,533 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 16:12:19,875 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&expand%5B%5D=inferenceProviderMapping HTTP/1.1" 200 390402
+2025-07-27 16:12:20,304 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-27 16:12:20,371 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-27 16:12:20,387 - DEBUG - Starting new HTTPS connection (1): api.puter.com:443
+2025-07-27 16:12:21,037 - DEBUG - https://api.puter.com:443 "GET /puterai/chat/models/ HTTP/1.1" 200 None
+2025-07-27 16:12:21,051 - DEBUG - Starting new HTTPS connection (1): www.codegeneration.ai:443
+2025-07-27 16:12:21,431 - DEBUG - https://www.codegeneration.ai:443 "GET /activate-v2 HTTP/1.1" 200 164
+2025-07-27 16:12:21,435 - DEBUG - Starting new HTTPS connection (1): api.together.xyz:443
+2025-07-27 16:12:21,961 - DEBUG - https://api.together.xyz:443 "GET /v1/models HTTP/1.1" 200 None
+2025-07-27 16:12:24,299 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:26,522 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:26,523 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:26,523 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:28,743 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:28,749 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:28,759 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:30,953 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:30,966 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:30,973 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:12:33,190 - INFO - 127.0.0.1 - - [27/Jul/2025 16:12:33] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-27 16:14:08,356 - INFO - Starting Flask app
+2025-07-27 16:14:08,366 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-27 16:14:08,366 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 16:14:17,204 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:17,206 - DEBUG - Starting new HTTPS connection (1): image.pollinations.ai:443
+2025-07-27 16:14:18,188 - DEBUG - https://image.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 16:14:18,190 - DEBUG - Starting new HTTPS connection (1): text.pollinations.ai:443
+2025-07-27 16:14:19,190 - DEBUG - https://text.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-27 16:14:19,199 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 16:14:19,526 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&pipeline_tag=text-generation HTTP/1.1" 200 562323
+2025-07-27 16:14:19,961 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 16:14:20,503 - DEBUG - https://huggingface.co:443 "GET /api/models?pipeline_tag=text-to-image HTTP/1.1" 200 444040
+2025-07-27 16:14:20,940 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-27 16:14:21,238 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&expand%5B%5D=inferenceProviderMapping HTTP/1.1" 200 390402
+2025-07-27 16:14:21,476 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-27 16:14:21,531 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-27 16:14:21,543 - DEBUG - Starting new HTTPS connection (1): api.puter.com:443
+2025-07-27 16:14:21,944 - DEBUG - https://api.puter.com:443 "GET /puterai/chat/models/ HTTP/1.1" 200 None
+2025-07-27 16:14:21,947 - DEBUG - Starting new HTTPS connection (1): www.codegeneration.ai:443
+2025-07-27 16:14:22,306 - DEBUG - https://www.codegeneration.ai:443 "GET /activate-v2 HTTP/1.1" 200 164
+2025-07-27 16:14:22,309 - DEBUG - Starting new HTTPS connection (1): api.together.xyz:443
+2025-07-27 16:14:23,536 - DEBUG - https://api.together.xyz:443 "GET /v1/models HTTP/1.1" 200 None
+2025-07-27 16:14:25,810 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:28,013 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:28,014 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:28,014 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:30,240 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:30,260 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:30,287 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:32,483 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:32,490 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:32,519 - DEBUG - Using selector: SelectSelector
+2025-07-27 16:14:34,725 - INFO - 127.0.0.1 - - [27/Jul/2025 16:14:34] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
