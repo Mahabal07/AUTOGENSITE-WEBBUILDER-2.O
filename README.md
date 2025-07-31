@@ -18,7 +18,7 @@ AutoSiteGen is an intelligent web application that generates complete, modern we
 ### Option 1: Local Installation
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/autositegen.git
+git clone https://github.com/Mahabal07/autositegen.git
 cd autositegen
 ```
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ### Option 2: Using Docker
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/autositegen.git
+git clone https://github.com/Mahabal07/autositegen.git
 cd autositegen
 ```
 
