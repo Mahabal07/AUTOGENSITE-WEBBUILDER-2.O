@@ -1,0 +1,732 @@
+2025-07-29 22:36:06,329 - INFO - Starting Flask app
+2025-07-29 22:36:06,339 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-29 22:36:06,339 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 22:36:52,369 - INFO - Starting Flask app
+2025-07-29 22:36:52,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-29 22:36:52,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 22:36:52,397 - INFO -  * Restarting with stat
+2025-07-29 22:36:53,082 - INFO - Starting Flask app
+2025-07-29 22:36:53,100 - WARNING -  * Debugger is active!
+2025-07-29 22:36:53,102 - INFO -  * Debugger PIN: 533-548-521
+2025-07-29 22:37:23,203 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-29 22:37:23,306 - INFO -  * Restarting with stat
+2025-07-29 22:37:24,287 - INFO - Starting Flask app
+2025-07-29 22:37:24,315 - WARNING -  * Debugger is active!
+2025-07-29 22:37:24,317 - INFO -  * Debugger PIN: 533-548-521
+2025-07-29 22:37:33,252 - INFO - 127.0.0.1 - - [29/Jul/2025 22:37:33] "GET / HTTP/1.1" 200 -
+2025-07-29 22:37:33,799 - INFO - 127.0.0.1 - - [29/Jul/2025 22:37:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-29 22:37:38,394 - DEBUG - Using selector: SelectSelector
+2025-07-29 22:37:38,397 - DEBUG - Starting new HTTPS connection (1): image.pollinations.ai:443
+2025-07-29 22:37:38,896 - DEBUG - https://image.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-29 22:37:38,898 - DEBUG - Starting new HTTPS connection (1): text.pollinations.ai:443
+2025-07-29 22:37:39,963 - DEBUG - https://text.pollinations.ai:443 "GET /models HTTP/1.1" 200 None
+2025-07-29 22:37:39,982 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-29 22:37:40,327 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&pipeline_tag=text-generation HTTP/1.1" 200 559819
+2025-07-29 22:37:40,763 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-29 22:37:41,296 - DEBUG - https://huggingface.co:443 "GET /api/models?pipeline_tag=text-to-image HTTP/1.1" 200 437579
+2025-07-29 22:37:41,359 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-29 22:37:41,678 - DEBUG - https://huggingface.co:443 "GET /api/models?inference=warm&expand%5B%5D=inferenceProviderMapping HTTP/1.1" 200 369215
+2025-07-29 22:37:41,975 - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-07-29 22:37:42,069 - DEBUG - https://storage.googleapis.com:443 "GET /public-arena-no-cors/p2l-explorer/data/overall/arena.json HTTP/1.1" 200 17689
+2025-07-29 22:37:42,084 - DEBUG - Starting new HTTPS connection (1): api.puter.com:443
+2025-07-29 22:37:42,217 - DEBUG - https://api.puter.com:443 "GET /puterai/chat/models/ HTTP/1.1" 200 None
+2025-07-29 22:37:42,223 - DEBUG - Starting new HTTPS connection (1): www.codegeneration.ai:443
+2025-07-29 22:37:42,580 - DEBUG - https://www.codegeneration.ai:443 "GET /activate-v2 HTTP/1.1" 200 164
+2025-07-29 22:37:42,582 - DEBUG - Starting new HTTPS connection (1): api.together.xyz:443
+2025-07-29 22:37:43,735 - DEBUG - https://api.together.xyz:443 "GET /v1/models HTTP/1.1" 200 None
+2025-07-29 22:37:46,049 - DEBUG - Using selector: SelectSelector
+2025-07-29 22:37:48,352 - DEBUG - Using selector: SelectSelector
+2025-07-29 22:37:48,353 - DEBUG - Using selector: SelectSelector
+2025-07-29 22:37:48,356 - DEBUG - Using selector: SelectSelector
+2025-07-29 22:37:55,707 - DEBUG - Using selector: SelectSelector
+2025-07-31 20:04:32,864 - INFO - Starting Flask app
+2025-07-31 20:04:32,916 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:04:32,917 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:04:32,918 - INFO -  * Restarting with stat
+2025-07-31 20:04:34,567 - INFO - Starting Flask app
+2025-07-31 20:04:34,593 - WARNING -  * Debugger is active!
+2025-07-31 20:04:34,596 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:04:38,767 - INFO - 127.0.0.1 - - [31/Jul/2025 20:04:38] "GET / HTTP/1.1" 200 -
+2025-07-31 20:04:39,373 - INFO - 127.0.0.1 - - [31/Jul/2025 20:04:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 20:04:44,025 - INFO - 127.0.0.1 - - [31/Jul/2025 20:04:44] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-31 20:04:59,683 - INFO - Starting Flask app
+2025-07-31 20:04:59,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:04:59,714 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:04:59,715 - INFO -  * Restarting with stat
+2025-07-31 20:05:01,019 - INFO - Starting Flask app
+2025-07-31 20:05:01,041 - WARNING -  * Debugger is active!
+2025-07-31 20:05:01,045 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:07:51,028 - INFO - Starting Flask app
+2025-07-31 20:07:51,051 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:07:51,052 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:07:51,052 - INFO -  * Restarting with stat
+2025-07-31 20:07:52,201 - INFO - Starting Flask app
+2025-07-31 20:07:52,218 - WARNING -  * Debugger is active!
+2025-07-31 20:07:52,222 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:07:55,202 - INFO - 127.0.0.1 - - [31/Jul/2025 20:07:55] "GET / HTTP/1.1" 200 -
+2025-07-31 20:07:59,451 - INFO - 127.0.0.1 - - [31/Jul/2025 20:07:59] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-31 20:08:45,842 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:08:45,965 - INFO -  * Restarting with stat
+2025-07-31 20:08:47,120 - INFO - Starting Flask app
+2025-07-31 20:08:47,133 - WARNING -  * Debugger is active!
+2025-07-31 20:08:47,135 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:09:02,183 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:09:02,302 - INFO -  * Restarting with stat
+2025-07-31 20:09:03,297 - INFO - Starting Flask app
+2025-07-31 20:09:03,310 - WARNING -  * Debugger is active!
+2025-07-31 20:09:03,311 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:09:15,353 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:09:15,559 - INFO -  * Restarting with stat
+2025-07-31 20:09:16,647 - INFO - Starting Flask app
+2025-07-31 20:09:16,663 - WARNING -  * Debugger is active!
+2025-07-31 20:09:16,665 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:09:24,697 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:09:24,846 - INFO -  * Restarting with stat
+2025-07-31 20:09:25,921 - INFO - Starting Flask app
+2025-07-31 20:09:25,932 - WARNING -  * Debugger is active!
+2025-07-31 20:09:25,934 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:09:30,951 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\API\\app.py', reloading
+2025-07-31 20:09:31,100 - INFO -  * Restarting with stat
+2025-07-31 20:09:32,312 - INFO - Starting Flask app
+2025-07-31 20:09:32,327 - WARNING -  * Debugger is active!
+2025-07-31 20:09:32,329 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:09:38,352 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\API\\app.py', reloading
+2025-07-31 20:09:38,495 - INFO -  * Restarting with stat
+2025-07-31 20:09:39,681 - INFO - Starting Flask app
+2025-07-31 20:09:39,701 - WARNING -  * Debugger is active!
+2025-07-31 20:09:39,704 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:10:18,818 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:10:18,975 - INFO -  * Restarting with stat
+2025-07-31 20:10:20,171 - INFO - Starting Flask app
+2025-07-31 20:10:20,194 - WARNING -  * Debugger is active!
+2025-07-31 20:10:20,197 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:10:31,236 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\API\\app.py', reloading
+2025-07-31 20:10:31,347 - INFO -  * Restarting with stat
+2025-07-31 20:10:32,365 - INFO - Starting Flask app
+2025-07-31 20:10:32,379 - WARNING -  * Debugger is active!
+2025-07-31 20:10:32,381 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:10:37,397 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\full_folder_test.py', reloading
+2025-07-31 20:10:37,522 - INFO -  * Restarting with stat
+2025-07-31 20:10:38,714 - INFO - Starting Flask app
+2025-07-31 20:10:38,729 - WARNING -  * Debugger is active!
+2025-07-31 20:10:38,730 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:10:43,761 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\streamtest.py', reloading
+2025-07-31 20:10:43,992 - INFO -  * Restarting with stat
+2025-07-31 20:10:45,623 - INFO - Starting Flask app
+2025-07-31 20:10:45,654 - WARNING -  * Debugger is active!
+2025-07-31 20:10:45,660 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:10:51,690 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\temp.py', reloading
+2025-07-31 20:10:51,794 - INFO -  * Restarting with stat
+2025-07-31 20:10:53,208 - INFO - Starting Flask app
+2025-07-31 20:10:53,223 - WARNING -  * Debugger is active!
+2025-07-31 20:10:53,226 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:10:58,251 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\stream.py', reloading
+2025-07-31 20:10:58,355 - INFO -  * Restarting with stat
+2025-07-31 20:10:59,762 - INFO - Starting Flask app
+2025-07-31 20:10:59,789 - WARNING -  * Debugger is active!
+2025-07-31 20:10:59,792 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:11:03,815 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\o1_test.py', reloading
+2025-07-31 20:11:03,919 - INFO -  * Restarting with stat
+2025-07-31 20:11:05,493 - INFO - Starting Flask app
+2025-07-31 20:11:05,525 - WARNING -  * Debugger is active!
+2025-07-31 20:11:05,531 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:11:45,011 - INFO - Starting Flask app
+2025-07-31 20:11:45,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:11:45,035 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:11:45,036 - INFO -  * Restarting with stat
+2025-07-31 20:11:46,668 - INFO - Starting Flask app
+2025-07-31 20:11:46,695 - WARNING -  * Debugger is active!
+2025-07-31 20:11:46,698 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:11:49,701 - INFO - 127.0.0.1 - - [31/Jul/2025 20:11:49] "GET / HTTP/1.1" 200 -
+2025-07-31 20:12:06,424 - DEBUG - Retrying due to 503 The model is overloaded. Please try again later., sleeping 0.1s ...
+2025-07-31 20:14:23,277 - INFO - Starting Flask app
+2025-07-31 20:14:23,300 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:14:23,300 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:14:23,301 - INFO -  * Restarting with stat
+2025-07-31 20:14:24,363 - INFO - Starting Flask app
+2025-07-31 20:14:24,375 - WARNING -  * Debugger is active!
+2025-07-31 20:14:24,378 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:14:59,334 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:14:59,386 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:14:59,499 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:14:59,510 - INFO -  * Restarting with stat
+2025-07-31 20:14:59,627 - INFO -  * Restarting with stat
+2025-07-31 20:15:00,757 - INFO - Starting Flask app
+2025-07-31 20:15:00,779 - WARNING -  * Debugger is active!
+2025-07-31 20:15:00,781 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:15:00,835 - INFO - Starting Flask app
+2025-07-31 20:15:00,851 - WARNING -  * Debugger is active!
+2025-07-31 20:15:00,853 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:15:01,490 - INFO -  * Restarting with stat
+2025-07-31 20:15:02,591 - INFO - Starting Flask app
+2025-07-31 20:15:02,603 - WARNING -  * Debugger is active!
+2025-07-31 20:15:02,605 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:15:12,829 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:15:12,903 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:15:12,989 - INFO -  * Restarting with stat
+2025-07-31 20:15:13,052 - INFO -  * Restarting with stat
+2025-07-31 20:15:13,645 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:15:14,402 - INFO - Starting Flask app
+2025-07-31 20:15:14,423 - WARNING -  * Debugger is active!
+2025-07-31 20:15:14,426 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:15:14,445 - INFO - Starting Flask app
+2025-07-31 20:15:14,459 - WARNING -  * Debugger is active!
+2025-07-31 20:15:14,461 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:15:15,774 - INFO -  * Restarting with stat
+2025-07-31 20:15:17,849 - INFO - Starting Flask app
+2025-07-31 20:15:17,869 - WARNING -  * Debugger is active!
+2025-07-31 20:15:17,871 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:15:33,949 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:15:34,086 - INFO -  * Restarting with stat
+2025-07-31 20:15:35,087 - INFO - Starting Flask app
+2025-07-31 20:15:35,101 - WARNING -  * Debugger is active!
+2025-07-31 20:15:35,102 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:15:53,161 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:15:53,324 - INFO -  * Restarting with stat
+2025-07-31 20:15:55,250 - INFO - Starting Flask app
+2025-07-31 20:15:55,281 - WARNING -  * Debugger is active!
+2025-07-31 20:15:55,284 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:16:01,312 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:16:01,527 - INFO -  * Restarting with stat
+2025-07-31 20:16:03,107 - INFO - Starting Flask app
+2025-07-31 20:16:03,131 - WARNING -  * Debugger is active!
+2025-07-31 20:16:03,134 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:16:14,181 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:16:14,470 - INFO -  * Restarting with stat
+2025-07-31 20:16:17,055 - INFO - Starting Flask app
+2025-07-31 20:16:17,081 - WARNING -  * Debugger is active!
+2025-07-31 20:16:17,084 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:17:11,268 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:17:11,388 - INFO -  * Restarting with stat
+2025-07-31 20:17:12,476 - INFO - Starting Flask app
+2025-07-31 20:17:12,496 - WARNING -  * Debugger is active!
+2025-07-31 20:17:12,498 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:17:20,532 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:17:20,665 - INFO -  * Restarting with stat
+2025-07-31 20:17:21,916 - INFO - Starting Flask app
+2025-07-31 20:17:21,946 - WARNING -  * Debugger is active!
+2025-07-31 20:17:21,949 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:17:27,846 - INFO - Starting Flask app
+2025-07-31 20:17:27,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:17:27,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:17:27,879 - INFO -  * Restarting with stat
+2025-07-31 20:17:29,444 - INFO - Starting Flask app
+2025-07-31 20:17:29,467 - WARNING -  * Debugger is active!
+2025-07-31 20:17:29,470 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:17:35,427 - INFO - 127.0.0.1 - - [31/Jul/2025 20:17:35] "GET / HTTP/1.1" 200 -
+2025-07-31 20:18:00,684 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:00] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:18:05,154 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:05] "GET /view/bxteCl4L/index.html HTTP/1.1" 200 -
+2025-07-31 20:18:05,462 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:05] "GET /view/bxteCl4L/home.css HTTP/1.1" 200 -
+2025-07-31 20:18:05,494 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:05] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:05,497 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:05] "GET /view/bxteCl4L/home.js HTTP/1.1" 200 -
+2025-07-31 20:18:08,787 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:08] "[36mGET /view/bxteCl4L/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:18:09,009 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:09] "[36mGET /view/bxteCl4L/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:18:09,041 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:09] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:09,121 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:09] "[36mGET /view/bxteCl4L/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:18:10,406 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:10] "GET /view/bxteCl4L/services.html HTTP/1.1" 200 -
+2025-07-31 20:18:10,727 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:10] "GET /view/bxteCl4L/services.css HTTP/1.1" 200 -
+2025-07-31 20:18:10,733 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:10] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:10,738 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:10] "GET /view/bxteCl4L/services.js HTTP/1.1" 200 -
+2025-07-31 20:18:15,409 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:15] "GET /view/bxteCl4L/blog.html HTTP/1.1" 200 -
+2025-07-31 20:18:15,641 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:15] "GET /view/bxteCl4L/blog.css HTTP/1.1" 200 -
+2025-07-31 20:18:15,668 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:15] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:15,749 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:15] "GET /view/bxteCl4L/blog.js HTTP/1.1" 200 -
+2025-07-31 20:18:16,896 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:16] "GET /view/bxteCl4L/contact.html HTTP/1.1" 200 -
+2025-07-31 20:18:17,200 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:17] "GET /view/bxteCl4L/contact.css HTTP/1.1" 200 -
+2025-07-31 20:18:17,232 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:17] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:17,235 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:17] "[33mGET /view/bxteCl4L/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:18:17,247 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:17] "GET /view/bxteCl4L/contact.js HTTP/1.1" 200 -
+2025-07-31 20:18:25,912 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:25] "GET /view/bxteCl4L/about.html HTTP/1.1" 200 -
+2025-07-31 20:18:26,132 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:26] "GET /view/bxteCl4L/about.css HTTP/1.1" 200 -
+2025-07-31 20:18:26,158 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:26] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:26,258 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:26] "GET /view/bxteCl4L/about.js HTTP/1.1" 200 -
+2025-07-31 20:18:43,916 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:43] "[36mGET /view/bxteCl4L/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:18:44,240 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:44] "[36mGET /view/bxteCl4L/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:18:44,252 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:44] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:44,259 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:44] "[36mGET /view/bxteCl4L/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:18:55,790 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:55] "[36mGET /view/bxteCl4L/services.html HTTP/1.1[0m" 304 -
+2025-07-31 20:18:56,008 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:56] "[36mGET /view/bxteCl4L/services.css HTTP/1.1[0m" 304 -
+2025-07-31 20:18:56,053 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:56] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:18:56,116 - INFO - 127.0.0.1 - - [31/Jul/2025 20:18:56] "[36mGET /view/bxteCl4L/services.js HTTP/1.1[0m" 304 -
+2025-07-31 20:19:00,098 - INFO - 127.0.0.1 - - [31/Jul/2025 20:19:00] "[36mGET /view/bxteCl4L/blog.html HTTP/1.1[0m" 304 -
+2025-07-31 20:19:00,414 - INFO - 127.0.0.1 - - [31/Jul/2025 20:19:00] "[36mGET /view/bxteCl4L/blog.css HTTP/1.1[0m" 304 -
+2025-07-31 20:19:00,444 - INFO - 127.0.0.1 - - [31/Jul/2025 20:19:00] "[33mGET /view/bxteCl4L/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:19:00,446 - INFO - 127.0.0.1 - - [31/Jul/2025 20:19:00] "[36mGET /view/bxteCl4L/blog.js HTTP/1.1[0m" 304 -
+2025-07-31 20:21:02,869 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:21:05,020 - INFO -  * Restarting with stat
+2025-07-31 20:21:06,636 - INFO - Starting Flask app
+2025-07-31 20:21:06,653 - WARNING -  * Debugger is active!
+2025-07-31 20:21:06,657 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:21:27,731 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:21:27,873 - INFO -  * Restarting with stat
+2025-07-31 20:21:28,885 - INFO - Starting Flask app
+2025-07-31 20:21:28,905 - WARNING -  * Debugger is active!
+2025-07-31 20:21:28,910 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:22:09,038 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:22:09,206 - INFO -  * Restarting with stat
+2025-07-31 20:22:10,381 - INFO - Starting Flask app
+2025-07-31 20:22:10,395 - WARNING -  * Debugger is active!
+2025-07-31 20:22:10,397 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:22:30,457 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:22:30,568 - INFO -  * Restarting with stat
+2025-07-31 20:22:31,670 - INFO - Starting Flask app
+2025-07-31 20:22:31,709 - WARNING -  * Debugger is active!
+2025-07-31 20:22:31,713 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:23:07,820 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:23:07,946 - INFO -  * Restarting with stat
+2025-07-31 20:23:09,069 - INFO - Starting Flask app
+2025-07-31 20:23:09,087 - WARNING -  * Debugger is active!
+2025-07-31 20:23:09,091 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:23:53,439 - INFO - Starting Flask app
+2025-07-31 20:23:53,447 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:23:53,447 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:24:03,152 - INFO - 127.0.0.1 - - [31/Jul/2025 20:24:03] "GET / HTTP/1.1" 200 -
+2025-07-31 20:24:27,786 - INFO - 127.0.0.1 - - [31/Jul/2025 20:24:27] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:24:32,249 - INFO - 127.0.0.1 - - [31/Jul/2025 20:24:32] "GET /view/C0xJ0ASK/index.html HTTP/1.1" 200 -
+2025-07-31 20:24:32,553 - INFO - 127.0.0.1 - - [31/Jul/2025 20:24:32] "GET /view/C0xJ0ASK/home.css HTTP/1.1" 200 -
+2025-07-31 20:24:32,566 - INFO - 127.0.0.1 - - [31/Jul/2025 20:24:32] "[33mGET /view/C0xJ0ASK/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:24:32,629 - INFO - 127.0.0.1 - - [31/Jul/2025 20:24:32] "GET /view/C0xJ0ASK/home.js HTTP/1.1" 200 -
+2025-07-31 20:25:00,715 - INFO - 127.0.0.1 - - [31/Jul/2025 20:25:00] "GET /download/C0xJ0ASK HTTP/1.1" 200 -
+2025-07-31 20:25:05,922 - INFO - 127.0.0.1 - - [31/Jul/2025 20:25:05] "[36mGET /view/C0xJ0ASK/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:25:05,943 - INFO - 127.0.0.1 - - [31/Jul/2025 20:25:05] "[36mGET /view/C0xJ0ASK/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:25:06,253 - INFO - 127.0.0.1 - - [31/Jul/2025 20:25:06] "[33mGET /view/C0xJ0ASK/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:25:06,256 - INFO - 127.0.0.1 - - [31/Jul/2025 20:25:06] "[36mGET /view/C0xJ0ASK/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:25:58,766 - INFO -  * Detected change in 'D:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:26:00,924 - INFO -  * Restarting with stat
+2025-07-31 20:28:55,247 - INFO - Starting Flask app
+2025-07-31 20:28:55,267 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:28:55,267 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:28:55,268 - INFO -  * Restarting with stat
+2025-07-31 20:28:56,263 - INFO - Starting Flask app
+2025-07-31 20:28:56,277 - WARNING -  * Debugger is active!
+2025-07-31 20:28:56,278 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:28:59,652 - INFO - 127.0.0.1 - - [31/Jul/2025 20:28:59] "GET / HTTP/1.1" 200 -
+2025-07-31 20:29:07,854 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:07] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:29:13,118 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:13] "GET /view/W8rQSnYy/index.html HTTP/1.1" 200 -
+2025-07-31 20:29:13,422 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:13] "GET /view/W8rQSnYy/home.css HTTP/1.1" 200 -
+2025-07-31 20:29:13,436 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:13] "[33mGET /view/W8rQSnYy/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:29:13,439 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:13] "GET /view/W8rQSnYy/home.js HTTP/1.1" 200 -
+2025-07-31 20:29:16,137 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:16] "[36mGET /view/W8rQSnYy/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:29:16,386 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:16] "[36mGET /view/W8rQSnYy/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:29:16,392 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:16] "[33mGET /view/W8rQSnYy/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:29:16,465 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:16] "[36mGET /view/W8rQSnYy/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:29:17,848 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:17] "GET /view/W8rQSnYy/about.html HTTP/1.1" 200 -
+2025-07-31 20:29:18,165 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:18] "GET /view/W8rQSnYy/about.css HTTP/1.1" 200 -
+2025-07-31 20:29:18,168 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:18] "[33mGET /view/W8rQSnYy/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:29:18,173 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:18] "GET /view/W8rQSnYy/about.js HTTP/1.1" 200 -
+2025-07-31 20:29:19,270 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:19] "[33mGET /view/W8rQSnYy/services.html HTTP/1.1[0m" 404 -
+2025-07-31 20:29:23,508 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:23] "GET /view/W8rQSnYy/contact.html HTTP/1.1" 200 -
+2025-07-31 20:29:23,522 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:23] "GET /view/W8rQSnYy/contact.css HTTP/1.1" 200 -
+2025-07-31 20:29:23,841 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:23] "[33mGET /view/W8rQSnYy/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:29:23,845 - INFO - 127.0.0.1 - - [31/Jul/2025 20:29:23] "GET /view/W8rQSnYy/contact.js HTTP/1.1" 200 -
+2025-07-31 20:30:18,615 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:30:20,749 - INFO -  * Restarting with stat
+2025-07-31 20:30:21,822 - INFO - Starting Flask app
+2025-07-31 20:30:21,839 - WARNING -  * Debugger is active!
+2025-07-31 20:30:21,841 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:30:28,202 - INFO - 127.0.0.1 - - [31/Jul/2025 20:30:28] "GET / HTTP/1.1" 200 -
+2025-07-31 20:30:35,404 - INFO - 127.0.0.1 - - [31/Jul/2025 20:30:35] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:30:38,603 - INFO - 127.0.0.1 - - [31/Jul/2025 20:30:38] "GET /view/Lk87VwFU/index.html HTTP/1.1" 200 -
+2025-07-31 20:30:38,913 - INFO - 127.0.0.1 - - [31/Jul/2025 20:30:38] "GET /view/Lk87VwFU/home.css HTTP/1.1" 200 -
+2025-07-31 20:30:38,938 - INFO - 127.0.0.1 - - [31/Jul/2025 20:30:38] "[33mGET /view/Lk87VwFU/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:30:38,946 - INFO - 127.0.0.1 - - [31/Jul/2025 20:30:38] "GET /view/Lk87VwFU/home.js HTTP/1.1" 200 -
+2025-07-31 20:30:40,722 - INFO - 127.0.0.1 - - [31/Jul/2025 20:30:40] "[33mGET /view/Lk87VwFU/services.html HTTP/1.1[0m" 404 -
+2025-07-31 20:35:01,163 - INFO - Starting Flask app
+2025-07-31 20:35:01,215 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:35:01,215 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:35:01,217 - INFO -  * Restarting with stat
+2025-07-31 20:35:02,670 - INFO - Starting Flask app
+2025-07-31 20:35:02,693 - WARNING -  * Debugger is active!
+2025-07-31 20:35:02,698 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:35:08,461 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:08] "GET / HTTP/1.1" 200 -
+2025-07-31 20:35:35,095 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:35] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:35:39,920 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:39] "GET /view/wAZkekMO/index.html HTTP/1.1" 200 -
+2025-07-31 20:35:40,197 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:40] "GET /view/wAZkekMO/home.css HTTP/1.1" 200 -
+2025-07-31 20:35:40,258 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:40] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:35:40,332 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:40] "GET /view/wAZkekMO/home.js HTTP/1.1" 200 -
+2025-07-31 20:35:42,549 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:42] "GET /view/wAZkekMO/about.html HTTP/1.1" 200 -
+2025-07-31 20:35:42,782 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:42] "GET /view/wAZkekMO/about.css HTTP/1.1" 200 -
+2025-07-31 20:35:42,814 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:42] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:35:42,890 - INFO - 127.0.0.1 - - [31/Jul/2025 20:35:42] "GET /view/wAZkekMO/about.js HTTP/1.1" 200 -
+2025-07-31 20:36:12,150 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:12] "GET /view/wAZkekMO/blog.html HTTP/1.1" 200 -
+2025-07-31 20:36:12,450 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:12] "GET /view/wAZkekMO/blog.css HTTP/1.1" 200 -
+2025-07-31 20:36:12,498 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:12] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:36:12,503 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:12] "GET /view/wAZkekMO/blog.js HTTP/1.1" 200 -
+2025-07-31 20:36:19,485 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:19] "GET /view/wAZkekMO/contact.html HTTP/1.1" 200 -
+2025-07-31 20:36:19,803 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:19] "GET /view/wAZkekMO/contact.css HTTP/1.1" 200 -
+2025-07-31 20:36:19,847 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:19] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:36:19,849 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:19] "[33mGET /view/wAZkekMO/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:36:19,853 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:19] "GET /view/wAZkekMO/contact.js HTTP/1.1" 200 -
+2025-07-31 20:36:25,213 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:25] "[36mGET /view/wAZkekMO/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:36:25,447 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:25] "[36mGET /view/wAZkekMO/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:36:25,479 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:25] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:36:25,553 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:25] "[36mGET /view/wAZkekMO/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:36:26,515 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:26] "[36mGET /view/wAZkekMO/about.html HTTP/1.1[0m" 304 -
+2025-07-31 20:36:26,831 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:26] "[36mGET /view/wAZkekMO/about.css HTTP/1.1[0m" 304 -
+2025-07-31 20:36:26,864 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:26] "[36mGET /view/wAZkekMO/about.js HTTP/1.1[0m" 304 -
+2025-07-31 20:36:26,865 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:26] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:36:32,979 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:32] "[36mGET /view/wAZkekMO/blog.html HTTP/1.1[0m" 304 -
+2025-07-31 20:36:33,296 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:33] "[36mGET /view/wAZkekMO/blog.css HTTP/1.1[0m" 304 -
+2025-07-31 20:36:33,312 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:33] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:36:33,316 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:33] "[36mGET /view/wAZkekMO/blog.js HTTP/1.1[0m" 304 -
+2025-07-31 20:36:40,698 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:40] "GET /view/wAZkekMO/services.html HTTP/1.1" 200 -
+2025-07-31 20:36:40,845 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:40] "GET /view/wAZkekMO/services.css HTTP/1.1" 200 -
+2025-07-31 20:36:41,049 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:41] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:36:41,083 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:41] "GET /view/wAZkekMO/services.js HTTP/1.1" 200 -
+2025-07-31 20:36:48,268 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:48] "[36mGET /view/wAZkekMO/contact.html HTTP/1.1[0m" 304 -
+2025-07-31 20:36:48,501 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:48] "[36mGET /view/wAZkekMO/contact.css HTTP/1.1[0m" 304 -
+2025-07-31 20:36:48,531 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:48] "[33mGET /view/wAZkekMO/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:36:48,615 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:48] "[33mGET /view/wAZkekMO/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:36:48,618 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:48] "[36mGET /view/wAZkekMO/contact.js HTTP/1.1[0m" 304 -
+2025-07-31 20:39:23,156 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:39:25,445 - INFO -  * Restarting with stat
+2025-07-31 20:39:27,236 - INFO - Starting Flask app
+2025-07-31 20:39:27,255 - WARNING -  * Debugger is active!
+2025-07-31 20:39:27,257 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:39:37,318 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:39:37,465 - INFO -  * Restarting with stat
+2025-07-31 20:39:38,596 - INFO - Starting Flask app
+2025-07-31 20:39:38,611 - WARNING -  * Debugger is active!
+2025-07-31 20:39:38,614 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:39:47,715 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:39:47,846 - INFO -  * Restarting with stat
+2025-07-31 20:39:49,075 - INFO - Starting Flask app
+2025-07-31 20:39:49,092 - WARNING -  * Debugger is active!
+2025-07-31 20:39:49,095 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:40:04,845 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:04] "GET / HTTP/1.1" 200 -
+2025-07-31 20:40:31,308 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:31] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:40:37,304 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:37] "GET /view/WYFI6VlE/index.html HTTP/1.1" 200 -
+2025-07-31 20:40:37,604 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:37] "GET /view/WYFI6VlE/home.css HTTP/1.1" 200 -
+2025-07-31 20:40:37,633 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:37] "[33mGET /view/WYFI6VlE/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:40:37,634 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:37] "[33mGET /view/WYFI6VlE/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:40:37,635 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:37] "GET /view/WYFI6VlE/home.js HTTP/1.1" 200 -
+2025-07-31 20:40:39,940 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:39] "GET /view/WYFI6VlE/services.html HTTP/1.1" 200 -
+2025-07-31 20:40:40,166 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:40] "GET /view/WYFI6VlE/services.css HTTP/1.1" 200 -
+2025-07-31 20:40:40,194 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:40] "[33mGET /view/WYFI6VlE/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:40:40,291 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:40] "GET /view/WYFI6VlE/services.js HTTP/1.1" 200 -
+2025-07-31 20:40:43,294 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:43] "GET /view/WYFI6VlE/about.html HTTP/1.1" 200 -
+2025-07-31 20:40:43,609 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:43] "GET /view/WYFI6VlE/about.css HTTP/1.1" 200 -
+2025-07-31 20:40:43,636 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:43] "[33mGET /view/WYFI6VlE/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:40:43,643 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:43] "GET /view/WYFI6VlE/about.js HTTP/1.1" 200 -
+2025-07-31 20:40:43,644 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:43] "[33mGET /view/WYFI6VlE/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:40:47,035 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:47] "GET /view/WYFI6VlE/contact.html HTTP/1.1" 200 -
+2025-07-31 20:40:47,263 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:47] "[33mGET /view/WYFI6VlE/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:40:47,264 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:47] "GET /view/WYFI6VlE/contact.css HTTP/1.1" 200 -
+2025-07-31 20:40:47,376 - INFO - 127.0.0.1 - - [31/Jul/2025 20:40:47] "GET /view/WYFI6VlE/contact.js HTTP/1.1" 200 -
+2025-07-31 20:42:07,019 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:42:09,166 - INFO -  * Restarting with stat
+2025-07-31 20:42:10,311 - INFO - Starting Flask app
+2025-07-31 20:42:10,330 - WARNING -  * Debugger is active!
+2025-07-31 20:42:10,333 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:42:24,430 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:42:24,566 - INFO -  * Restarting with stat
+2025-07-31 20:42:25,846 - INFO - Starting Flask app
+2025-07-31 20:42:25,864 - WARNING -  * Debugger is active!
+2025-07-31 20:42:25,866 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:42:48,023 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:42:48,151 - INFO -  * Restarting with stat
+2025-07-31 20:42:49,409 - INFO - Starting Flask app
+2025-07-31 20:42:49,425 - WARNING -  * Debugger is active!
+2025-07-31 20:42:49,428 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:43:27,663 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:43:27,860 - INFO -  * Restarting with stat
+2025-07-31 20:43:29,064 - INFO - Starting Flask app
+2025-07-31 20:43:29,094 - WARNING -  * Debugger is active!
+2025-07-31 20:43:29,098 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:44:02,902 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:44:04,884 - INFO -  * Restarting with stat
+2025-07-31 20:44:07,519 - INFO - Starting Flask app
+2025-07-31 20:44:07,549 - WARNING -  * Debugger is active!
+2025-07-31 20:44:07,551 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:44:46,934 - INFO - 127.0.0.1 - - [31/Jul/2025 20:44:46] "GET / HTTP/1.1" 200 -
+2025-07-31 20:45:18,015 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:18] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:45:29,705 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:29] "GET /view/Lnv0QbJ7/index.html HTTP/1.1" 200 -
+2025-07-31 20:45:30,007 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:30] "GET /view/Lnv0QbJ7/home.css HTTP/1.1" 200 -
+2025-07-31 20:45:30,037 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:30] "[33mGET /view/Lnv0QbJ7/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:45:30,037 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:30] "[33mGET /view/Lnv0QbJ7/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:45:30,042 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:30] "GET /view/Lnv0QbJ7/home.js HTTP/1.1" 200 -
+2025-07-31 20:45:42,675 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:42] "GET /view/Lnv0QbJ7/contact.html HTTP/1.1" 200 -
+2025-07-31 20:45:42,922 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:42] "GET /view/Lnv0QbJ7/contact.css HTTP/1.1" 200 -
+2025-07-31 20:45:42,928 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:42] "[33mGET /view/Lnv0QbJ7/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:45:43,018 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:43] "GET /view/Lnv0QbJ7/contact.js HTTP/1.1" 200 -
+2025-07-31 20:45:51,129 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:51] "[36mGET /view/Lnv0QbJ7/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:45:51,433 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:51] "[36mGET /view/Lnv0QbJ7/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:45:51,481 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:51] "[33mGET /view/Lnv0QbJ7/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:45:51,483 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:51] "[36mGET /view/Lnv0QbJ7/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:45:51,486 - INFO - 127.0.0.1 - - [31/Jul/2025 20:45:51] "[33mGET /view/Lnv0QbJ7/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:47:01,123 - INFO - Starting Flask app
+2025-07-31 20:47:01,143 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:47:01,143 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:47:01,144 - INFO -  * Restarting with stat
+2025-07-31 20:47:02,280 - INFO - Starting Flask app
+2025-07-31 20:47:02,298 - WARNING -  * Debugger is active!
+2025-07-31 20:47:02,309 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:47:05,163 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:05] "GET / HTTP/1.1" 200 -
+2025-07-31 20:47:29,243 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:29] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:47:37,628 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:37] "GET /view/vHtWMzAc/index.html HTTP/1.1" 200 -
+2025-07-31 20:47:37,946 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:37] "[33mGET /view/vHtWMzAc/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:47:37,949 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:37] "[33mGET /view/vHtWMzAc/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:47:37,950 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:37] "GET /view/vHtWMzAc/home.css HTTP/1.1" 200 -
+2025-07-31 20:47:37,951 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:37] "GET /view/vHtWMzAc/home.js HTTP/1.1" 200 -
+2025-07-31 20:47:42,066 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:42] "GET /view/vHtWMzAc/about.html HTTP/1.1" 200 -
+2025-07-31 20:47:42,294 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:42] "GET /view/vHtWMzAc/about.css HTTP/1.1" 200 -
+2025-07-31 20:47:42,323 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:42] "[33mGET /view/vHtWMzAc/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:47:42,417 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:42] "GET /view/vHtWMzAc/about.js HTTP/1.1" 200 -
+2025-07-31 20:47:52,230 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:52] "GET /view/vHtWMzAc/contact.html HTTP/1.1" 200 -
+2025-07-31 20:47:52,544 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:52] "GET /view/vHtWMzAc/contact.css HTTP/1.1" 200 -
+2025-07-31 20:47:52,586 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:52] "[33mGET /view/vHtWMzAc/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:47:52,592 - INFO - 127.0.0.1 - - [31/Jul/2025 20:47:52] "GET /view/vHtWMzAc/contact.js HTTP/1.1" 200 -
+2025-07-31 20:48:03,048 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:03] "GET /view/vHtWMzAc/services.html HTTP/1.1" 200 -
+2025-07-31 20:48:03,281 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:03] "GET /view/vHtWMzAc/services.css HTTP/1.1" 200 -
+2025-07-31 20:48:03,311 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:03] "[33mGET /view/vHtWMzAc/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:48:03,422 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:03] "GET /view/vHtWMzAc/services.js HTTP/1.1" 200 -
+2025-07-31 20:48:09,390 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:09] "[36mGET /view/vHtWMzAc/contact.html HTTP/1.1[0m" 304 -
+2025-07-31 20:48:09,707 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:09] "[36mGET /view/vHtWMzAc/contact.css HTTP/1.1[0m" 304 -
+2025-07-31 20:48:09,736 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:09] "[33mGET /view/vHtWMzAc/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:48:09,739 - INFO - 127.0.0.1 - - [31/Jul/2025 20:48:09] "[36mGET /view/vHtWMzAc/contact.js HTTP/1.1[0m" 304 -
+2025-07-31 20:50:42,563 - INFO - Starting Flask app
+2025-07-31 20:50:42,586 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:50:42,586 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:50:42,587 - INFO -  * Restarting with stat
+2025-07-31 20:50:43,591 - INFO - Starting Flask app
+2025-07-31 20:50:43,606 - WARNING -  * Debugger is active!
+2025-07-31 20:50:43,609 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:50:46,400 - INFO - 127.0.0.1 - - [31/Jul/2025 20:50:46] "GET / HTTP/1.1" 200 -
+2025-07-31 20:51:14,592 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:14] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:51:18,734 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:18] "GET /view/SSLlj9eR/index.html HTTP/1.1" 200 -
+2025-07-31 20:51:19,047 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:19] "GET /view/SSLlj9eR/home.css HTTP/1.1" 200 -
+2025-07-31 20:51:19,061 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:19] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:19,123 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:19] "GET /view/SSLlj9eR/home.js HTTP/1.1" 200 -
+2025-07-31 20:51:22,446 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:22] "[36mGET /view/SSLlj9eR/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:51:22,689 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:22] "[36mGET /view/SSLlj9eR/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:51:22,696 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:22] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:22,782 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:22] "[36mGET /view/SSLlj9eR/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:51:23,853 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:23] "GET /view/SSLlj9eR/services.html HTTP/1.1" 200 -
+2025-07-31 20:51:24,167 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:24] "GET /view/SSLlj9eR/services.css HTTP/1.1" 200 -
+2025-07-31 20:51:24,198 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:24] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:24,245 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:24] "GET /view/SSLlj9eR/services.js HTTP/1.1" 200 -
+2025-07-31 20:51:28,501 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:28] "GET /view/SSLlj9eR/about.html HTTP/1.1" 200 -
+2025-07-31 20:51:28,752 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:28] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:28,754 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:28] "GET /view/SSLlj9eR/about.css HTTP/1.1" 200 -
+2025-07-31 20:51:28,845 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:28] "[33mGET /view/SSLlj9eR/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:51:28,847 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:28] "GET /view/SSLlj9eR/about.js HTTP/1.1" 200 -
+2025-07-31 20:51:32,804 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:32] "GET /view/SSLlj9eR/contact.html HTTP/1.1" 200 -
+2025-07-31 20:51:33,116 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:33] "GET /view/SSLlj9eR/contact.css HTTP/1.1" 200 -
+2025-07-31 20:51:33,147 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:33] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:33,153 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:33] "GET /view/SSLlj9eR/contact.js HTTP/1.1" 200 -
+2025-07-31 20:51:36,460 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:36] "[36mGET /view/SSLlj9eR/index.html HTTP/1.1[0m" 304 -
+2025-07-31 20:51:36,703 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:36] "[36mGET /view/SSLlj9eR/home.css HTTP/1.1[0m" 304 -
+2025-07-31 20:51:36,710 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:36] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:36,812 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:36] "[36mGET /view/SSLlj9eR/home.js HTTP/1.1[0m" 304 -
+2025-07-31 20:51:39,495 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:39] "[36mGET /view/SSLlj9eR/services.html HTTP/1.1[0m" 304 -
+2025-07-31 20:51:39,812 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:39] "[36mGET /view/SSLlj9eR/services.css HTTP/1.1[0m" 304 -
+2025-07-31 20:51:39,825 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:39] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:39,841 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:39] "[36mGET /view/SSLlj9eR/services.js HTTP/1.1[0m" 304 -
+2025-07-31 20:51:57,313 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:57] "[36mGET /view/SSLlj9eR/about.html HTTP/1.1[0m" 304 -
+2025-07-31 20:51:57,532 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:57] "[36mGET /view/SSLlj9eR/about.css HTTP/1.1[0m" 304 -
+2025-07-31 20:51:57,563 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:57] "[33mGET /view/SSLlj9eR/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:51:57,662 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:57] "[33mGET /view/SSLlj9eR/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:51:57,663 - INFO - 127.0.0.1 - - [31/Jul/2025 20:51:57] "[36mGET /view/SSLlj9eR/about.js HTTP/1.1[0m" 304 -
+2025-07-31 20:52:23,684 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:52:25,815 - INFO -  * Restarting with stat
+2025-07-31 20:52:27,253 - INFO - Starting Flask app
+2025-07-31 20:52:27,278 - WARNING -  * Debugger is active!
+2025-07-31 20:52:27,280 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:52:35,342 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:52:35,459 - INFO -  * Restarting with stat
+2025-07-31 20:52:36,681 - INFO - Starting Flask app
+2025-07-31 20:52:36,700 - WARNING -  * Debugger is active!
+2025-07-31 20:52:36,703 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:52:46,810 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:52:46,918 - INFO -  * Restarting with stat
+2025-07-31 20:52:48,202 - INFO - Starting Flask app
+2025-07-31 20:52:48,232 - WARNING -  * Debugger is active!
+2025-07-31 20:52:48,235 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:52:53,897 - INFO - 127.0.0.1 - - [31/Jul/2025 20:52:53] "GET / HTTP/1.1" 200 -
+2025-07-31 20:53:19,627 - INFO - 127.0.0.1 - - [31/Jul/2025 20:53:19] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:53:24,049 - INFO - 127.0.0.1 - - [31/Jul/2025 20:53:24] "GET /view/Ay2S5ZKJ/index.html HTTP/1.1" 200 -
+2025-07-31 20:53:24,314 - INFO - 127.0.0.1 - - [31/Jul/2025 20:53:24] "GET /view/Ay2S5ZKJ/home.css HTTP/1.1" 200 -
+2025-07-31 20:53:24,377 - INFO - 127.0.0.1 - - [31/Jul/2025 20:53:24] "[33mGET /view/Ay2S5ZKJ/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:53:24,382 - INFO - 127.0.0.1 - - [31/Jul/2025 20:53:24] "GET /view/Ay2S5ZKJ/home.js HTTP/1.1" 200 -
+2025-07-31 20:54:11,829 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:54:14,010 - INFO -  * Restarting with stat
+2025-07-31 20:54:15,316 - INFO - Starting Flask app
+2025-07-31 20:54:15,337 - WARNING -  * Debugger is active!
+2025-07-31 20:54:15,342 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:54:23,403 - INFO -  * Detected change in 'd:\\all\\Desktop\\demo\\app.py', reloading
+2025-07-31 20:54:23,555 - INFO -  * Restarting with stat
+2025-07-31 20:54:25,026 - INFO - Starting Flask app
+2025-07-31 20:54:25,042 - WARNING -  * Debugger is active!
+2025-07-31 20:54:25,044 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:54:32,208 - INFO - 127.0.0.1 - - [31/Jul/2025 20:54:32] "GET / HTTP/1.1" 200 -
+2025-07-31 20:54:59,797 - INFO - 127.0.0.1 - - [31/Jul/2025 20:54:59] "POST /generate HTTP/1.1" 200 -
+2025-07-31 20:55:06,514 - INFO - 127.0.0.1 - - [31/Jul/2025 20:55:06] "GET /view/DHH7SNEI/index.html HTTP/1.1" 200 -
+2025-07-31 20:55:06,819 - INFO - 127.0.0.1 - - [31/Jul/2025 20:55:06] "[33mGET /view/DHH7SNEI/style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:55:06,882 - INFO - 127.0.0.1 - - [31/Jul/2025 20:55:06] "[33mGET /view/DHH7SNEI/script.js HTTP/1.1[0m" 404 -
+2025-07-31 20:55:06,885 - INFO - 127.0.0.1 - - [31/Jul/2025 20:55:06] "[33mGET /view/DHH7SNEI/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 20:55:06,890 - INFO - 127.0.0.1 - - [31/Jul/2025 20:55:06] "GET /view/DHH7SNEI/home.js HTTP/1.1" 200 -
+2025-07-31 20:55:06,893 - INFO - 127.0.0.1 - - [31/Jul/2025 20:55:06] "GET /view/DHH7SNEI/home.css HTTP/1.1" 200 -
+2025-07-31 20:55:07,206 - INFO - 127.0.0.1 - - [31/Jul/2025 20:55:07] "[33mGET /view/DHH7SNEI/hero-image.jpg HTTP/1.1[0m" 404 -
+2025-07-31 20:57:34,023 - INFO - Starting Flask app
+2025-07-31 20:57:34,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 20:57:34,053 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:57:34,054 - INFO -  * Restarting with stat
+2025-07-31 20:57:35,053 - INFO - Starting Flask app
+2025-07-31 20:57:35,067 - WARNING -  * Debugger is active!
+2025-07-31 20:57:35,069 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 20:57:37,804 - INFO - 127.0.0.1 - - [31/Jul/2025 20:57:37] "GET / HTTP/1.1" 200 -
+2025-07-31 20:57:55,843 - INFO - 127.0.0.1 - - [31/Jul/2025 20:57:55] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-07-31 21:00:59,783 - INFO - Starting Flask app
+2025-07-31 21:00:59,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 21:00:59,804 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 21:00:59,805 - INFO -  * Restarting with stat
+2025-07-31 21:01:00,796 - INFO - Starting Flask app
+2025-07-31 21:01:00,809 - WARNING -  * Debugger is active!
+2025-07-31 21:01:00,811 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 21:01:04,150 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:04] "GET / HTTP/1.1" 200 -
+2025-07-31 21:01:04,654 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 21:01:36,346 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:36] "POST /generate HTTP/1.1" 200 -
+2025-07-31 21:01:41,352 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:41] "GET /view/3V9DeiBd/index.html HTTP/1.1" 200 -
+2025-07-31 21:01:41,617 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:41] "[33mGET /view/3V9DeiBd/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:41,683 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:41] "[33mGET /view/3V9DeiBd/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:01:41,684 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:41] "GET /view/3V9DeiBd/home.css HTTP/1.1" 200 -
+2025-07-31 21:01:41,685 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:41] "[33mGET /view/3V9DeiBd/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:41,697 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:41] "GET /view/3V9DeiBd/home.js HTTP/1.1" 200 -
+2025-07-31 21:01:42,004 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:42] "[33mGET /view/3V9DeiBd/hero-pattern.svg HTTP/1.1[0m" 404 -
+2025-07-31 21:01:43,967 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:43] "GET /view/3V9DeiBd/about.html HTTP/1.1" 200 -
+2025-07-31 21:01:44,198 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:44] "[33mGET /view/3V9DeiBd/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:44,230 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:44] "GET /view/3V9DeiBd/about.css HTTP/1.1" 200 -
+2025-07-31 21:01:44,301 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:44] "[33mGET /view/3V9DeiBd/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:44,302 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:44] "[33mGET /view/3V9DeiBd/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:01:44,312 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:44] "GET /view/3V9DeiBd/about.js HTTP/1.1" 200 -
+2025-07-31 21:01:47,336 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:47] "GET /view/3V9DeiBd/blog.html HTTP/1.1" 200 -
+2025-07-31 21:01:47,652 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:47] "GET /view/3V9DeiBd/blog.css HTTP/1.1" 200 -
+2025-07-31 21:01:47,682 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:47] "[33mGET /view/3V9DeiBd/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:47,685 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:47] "[33mGET /view/3V9DeiBd/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:47,696 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:47] "GET /view/3V9DeiBd/blog.js HTTP/1.1" 200 -
+2025-07-31 21:01:50,367 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:50] "GET /view/3V9DeiBd/services.html HTTP/1.1" 200 -
+2025-07-31 21:01:50,603 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:50] "[33mGET /view/3V9DeiBd/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:50,616 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:50] "GET /view/3V9DeiBd/services.css HTTP/1.1" 200 -
+2025-07-31 21:01:50,695 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:50] "[33mGET /view/3V9DeiBd/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:50,700 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:50] "GET /view/3V9DeiBd/services.js HTTP/1.1" 200 -
+2025-07-31 21:01:55,860 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:55] "GET /view/3V9DeiBd/contact.html HTTP/1.1" 200 -
+2025-07-31 21:01:56,164 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:56] "[33mGET /view/3V9DeiBd/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:56,200 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:56] "[33mGET /view/3V9DeiBd/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:01:56,203 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:56] "GET /view/3V9DeiBd/contact.css HTTP/1.1" 200 -
+2025-07-31 21:01:56,204 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:56] "GET /view/3V9DeiBd/contact.js HTTP/1.1" 200 -
+2025-07-31 21:01:59,964 - INFO - 127.0.0.1 - - [31/Jul/2025 21:01:59] "[36mGET /view/3V9DeiBd/index.html HTTP/1.1[0m" 304 -
+2025-07-31 21:02:00,197 - INFO - 127.0.0.1 - - [31/Jul/2025 21:02:00] "[33mGET /view/3V9DeiBd/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:02:00,211 - INFO - 127.0.0.1 - - [31/Jul/2025 21:02:00] "[36mGET /view/3V9DeiBd/home.css HTTP/1.1[0m" 304 -
+2025-07-31 21:02:00,306 - INFO - 127.0.0.1 - - [31/Jul/2025 21:02:00] "[33mGET /view/3V9DeiBd/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:02:00,314 - INFO - 127.0.0.1 - - [31/Jul/2025 21:02:00] "[33mGET /view/3V9DeiBd/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:02:00,330 - INFO - 127.0.0.1 - - [31/Jul/2025 21:02:00] "[36mGET /view/3V9DeiBd/home.js HTTP/1.1[0m" 304 -
+2025-07-31 21:02:00,335 - INFO - 127.0.0.1 - - [31/Jul/2025 21:02:00] "[33mGET /view/3V9DeiBd/hero-pattern.svg HTTP/1.1[0m" 404 -
+2025-07-31 21:02:09,134 - INFO - 127.0.0.1 - - [31/Jul/2025 21:02:09] "GET /download/3V9DeiBd HTTP/1.1" 200 -
+2025-07-31 21:13:17,476 - INFO - Starting Flask app
+2025-07-31 21:13:17,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 21:13:17,514 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 21:13:17,515 - INFO -  * Restarting with stat
+2025-07-31 21:13:18,751 - INFO - Starting Flask app
+2025-07-31 21:13:18,764 - WARNING -  * Debugger is active!
+2025-07-31 21:13:18,766 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 21:13:23,048 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:23] "GET / HTTP/1.1" 200 -
+2025-07-31 21:13:23,262 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 21:13:52,953 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:52] "POST /generate HTTP/1.1" 200 -
+2025-07-31 21:13:59,497 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:59] "GET /view/cou3fCS1/index.html HTTP/1.1" 200 -
+2025-07-31 21:13:59,759 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:59] "[33mGET /view/cou3fCS1/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:13:59,835 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:59] "[33mGET /view/cou3fCS1/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:13:59,836 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:59] "[33mGET /view/cou3fCS1/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:13:59,837 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:59] "GET /view/cou3fCS1/home.css HTTP/1.1" 200 -
+2025-07-31 21:13:59,844 - INFO - 127.0.0.1 - - [31/Jul/2025 21:13:59] "GET /view/cou3fCS1/home.js HTTP/1.1" 200 -
+2025-07-31 21:14:00,160 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:00] "[33mGET /view/cou3fCS1/hero-image.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:14:01,824 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:01] "GET /view/cou3fCS1/about.html HTTP/1.1" 200 -
+2025-07-31 21:14:02,056 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:02] "GET /view/cou3fCS1/about.css HTTP/1.1" 200 -
+2025-07-31 21:14:02,084 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:02] "[33mGET /view/cou3fCS1/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:02,177 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:02] "[33mGET /view/cou3fCS1/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:02,179 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:02] "[33mGET /view/cou3fCS1/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:14:02,180 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:02] "GET /view/cou3fCS1/about.js HTTP/1.1" 200 -
+2025-07-31 21:14:08,712 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:08] "GET /view/cou3fCS1/services.html HTTP/1.1" 200 -
+2025-07-31 21:14:09,046 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:09] "GET /view/cou3fCS1/services.css HTTP/1.1" 200 -
+2025-07-31 21:14:09,051 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:09] "[33mGET /view/cou3fCS1/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:09,052 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:09] "[33mGET /view/cou3fCS1/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:09,092 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:09] "GET /view/cou3fCS1/services.js HTTP/1.1" 200 -
+2025-07-31 21:14:14,541 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:14] "GET /view/cou3fCS1/blog.html HTTP/1.1" 200 -
+2025-07-31 21:14:14,792 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:14] "GET /view/cou3fCS1/blog.css HTTP/1.1" 200 -
+2025-07-31 21:14:14,794 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:14] "[33mGET /view/cou3fCS1/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:14,899 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:14] "[33mGET /view/cou3fCS1/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:14,913 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:14] "GET /view/cou3fCS1/blog.js HTTP/1.1" 200 -
+2025-07-31 21:14:14,921 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:14] "[33mGET /view/cou3fCS1/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:14:19,612 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:19] "GET /view/cou3fCS1/contact.html HTTP/1.1" 200 -
+2025-07-31 21:14:19,927 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:19] "GET /view/cou3fCS1/contact.css HTTP/1.1" 200 -
+2025-07-31 21:14:19,972 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:19] "[33mGET /view/cou3fCS1/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:19,980 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:19] "GET /view/cou3fCS1/contact.js HTTP/1.1" 200 -
+2025-07-31 21:14:23,413 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:23] "[36mGET /view/cou3fCS1/index.html HTTP/1.1[0m" 304 -
+2025-07-31 21:14:23,661 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:23] "[33mGET /view/cou3fCS1/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:23,665 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:23] "[33mGET /view/cou3fCS1/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:14:23,758 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:23] "[33mGET /view/cou3fCS1/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:14:23,760 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:23] "[36mGET /view/cou3fCS1/home.css HTTP/1.1[0m" 304 -
+2025-07-31 21:14:23,762 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:23] "[36mGET /view/cou3fCS1/home.js HTTP/1.1[0m" 304 -
+2025-07-31 21:14:23,778 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:23] "[33mGET /view/cou3fCS1/hero-image.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:14:32,854 - INFO - 127.0.0.1 - - [31/Jul/2025 21:14:32] "GET /download/cou3fCS1 HTTP/1.1" 200 -
+2025-07-31 21:23:29,594 - INFO - Starting Flask app
+2025-07-31 21:23:29,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 21:23:29,616 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 21:23:29,618 - INFO -  * Restarting with stat
+2025-07-31 21:23:30,941 - INFO - Starting Flask app
+2025-07-31 21:23:30,958 - WARNING -  * Debugger is active!
+2025-07-31 21:23:30,961 - INFO -  * Debugger PIN: 533-548-521
+2025-07-31 21:23:33,983 - INFO - 127.0.0.1 - - [31/Jul/2025 21:23:33] "GET / HTTP/1.1" 200 -
+2025-07-31 21:23:34,484 - INFO - 127.0.0.1 - - [31/Jul/2025 21:23:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-31 21:24:03,735 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:03] "POST /generate HTTP/1.1" 200 -
+2025-07-31 21:24:06,699 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:06] "GET /view/ZfEQcbWu/index.html HTTP/1.1" 200 -
+2025-07-31 21:24:07,011 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "[33mGET /view/ZfEQcbWu/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:07,027 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "[33mGET /view/ZfEQcbWu/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:07,028 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "GET /view/ZfEQcbWu/home.css HTTP/1.1" 200 -
+2025-07-31 21:24:07,029 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "[33mGET /view/ZfEQcbWu/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:24:07,036 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "GET /view/ZfEQcbWu/home.js HTTP/1.1" 200 -
+2025-07-31 21:24:07,347 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "[33mGET /view/ZfEQcbWu/hero-background.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:24:07,395 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "[33mGET /view/ZfEQcbWu/testimonial1.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:24:07,396 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:07] "[33mGET /view/ZfEQcbWu/testimonial2.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:24:10,464 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:10] "GET /view/ZfEQcbWu/about.html HTTP/1.1" 200 -
+2025-07-31 21:24:10,695 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:10] "[33mGET /view/ZfEQcbWu/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:10,729 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:10] "GET /view/ZfEQcbWu/about.css HTTP/1.1" 200 -
+2025-07-31 21:24:10,821 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:10] "[33mGET /view/ZfEQcbWu/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:24:10,822 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:10] "[33mGET /view/ZfEQcbWu/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:10,824 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:10] "GET /view/ZfEQcbWu/about.js HTTP/1.1" 200 -
+2025-07-31 21:24:13,946 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:13] "GET /view/ZfEQcbWu/services.html HTTP/1.1" 200 -
+2025-07-31 21:24:14,265 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:14] "[33mGET /view/ZfEQcbWu/styles.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:14,293 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:14] "[33mGET /view/ZfEQcbWu/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:14,296 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:14] "GET /view/ZfEQcbWu/services.css HTTP/1.1" 200 -
+2025-07-31 21:24:14,304 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:14] "GET /view/ZfEQcbWu/services.js HTTP/1.1" 200 -
+2025-07-31 21:24:14,305 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:14] "[33mGET /view/ZfEQcbWu/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:24:17,412 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:17] "GET /view/ZfEQcbWu/contact.html HTTP/1.1" 200 -
+2025-07-31 21:24:17,646 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:17] "GET /view/ZfEQcbWu/contact.css HTTP/1.1" 200 -
+2025-07-31 21:24:17,671 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:17] "[33mGET /view/ZfEQcbWu/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:17,749 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:17] "GET /view/ZfEQcbWu/contact.js HTTP/1.1" 200 -
+2025-07-31 21:24:21,592 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:21] "[36mGET /view/ZfEQcbWu/index.html HTTP/1.1[0m" 304 -
+2025-07-31 21:24:21,913 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:21] "[33mGET /view/ZfEQcbWu/style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:21,915 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:21] "[36mGET /view/ZfEQcbWu/home.css HTTP/1.1[0m" 304 -
+2025-07-31 21:24:21,936 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:21] "[33mGET /view/ZfEQcbWu/global-style.css HTTP/1.1[0m" 404 -
+2025-07-31 21:24:21,938 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:21] "[33mGET /view/ZfEQcbWu/script.js HTTP/1.1[0m" 404 -
+2025-07-31 21:24:21,947 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:21] "[36mGET /view/ZfEQcbWu/home.js HTTP/1.1[0m" 304 -
+2025-07-31 21:24:22,171 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:22] "[33mGET /view/ZfEQcbWu/hero-background.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:24:22,248 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:22] "[33mGET /view/ZfEQcbWu/testimonial1.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:24:22,258 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:22] "[33mGET /view/ZfEQcbWu/testimonial2.jpg HTTP/1.1[0m" 404 -
+2025-07-31 21:24:29,191 - INFO - 127.0.0.1 - - [31/Jul/2025 21:24:29] "GET /download/ZfEQcbWu HTTP/1.1" 200 -
