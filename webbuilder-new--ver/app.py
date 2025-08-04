@@ -16,7 +16,7 @@ import platform
 import time
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDH8326_llp1bhBIw1biLA1GDU4rs6TO6o")
+genai.configure(api_key="AIzaSyBWA7c957D_D_QajBuizkRFh5k7_46uugg")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Alternative free AI model (Hugging Face)
@@ -322,7 +322,7 @@ def generate_page(page, original_prompt, base_prompt, folder_name, result_queue)
 
                 # If we get here, the page generation was successful
                 create_files(code_sections, folder_name, page)
-                print(f"✅ {page} page generated successfully!")
+                print(f"{page} page generated successfully!")
                 result_queue.put(page)
                 return
 
@@ -343,7 +343,7 @@ def generate_custom_navbar(pages):
 
     while retry_count < max_retries:
         try:
-            print(f"🔗 Generating custom navbar (attempt {retry_count + 1}/{max_retries})...")
+            print(f"Generating custom navbar (attempt {retry_count + 1}/{max_retries})...")
             navbar_prompt = f"""Create a simple, responsive navbar using Tailwind CSS for these pages: {', '.join(pages)}.
 
 Requirements:
@@ -471,7 +471,7 @@ def generate_website_name(prompt):
 
     while retry_count < max_retries:
         try:
-            print(f"🏷️ Generating website name (attempt {retry_count + 1}/{max_retries})...")
+            print(f"Generating website name (attempt {retry_count + 1}/{max_retries})...")
             name_prompt = f"""Based on this website description: "{prompt}", generate a professional, memorable website name.
 
 Requirements:
@@ -486,7 +486,7 @@ Requirements:
 Respond with ONLY the website name, nothing else. Example: "TechFlow" or "DigitalCraft" """
 
             response_text = generate_with_fallback(name_prompt)
-            print(f"✅ Website name generated: {response_text}")
+            print(f"Website name generated: {response_text}")
             
             # Clean up the response
             if response_text:
@@ -555,8 +555,8 @@ def index():
 def generate():
     try:
         print("\n" + "="*60)
-        print("🎯 WEBSITE GENERATION STARTED")
-        print("="*60)
+        print("WEBSITE GENERATION STARTED...")
+        
         
         global code_generation_failures
         original_prompt = request.json.get('prompt')
@@ -564,11 +564,11 @@ def generate():
         if not original_prompt:
             return jsonify({"error": "No prompt provided"}), 400
         
-        print(f"📝 Prompt: {original_prompt}")
+        print(f"Prompt: {original_prompt}")
         
         # Generate website name based on the prompt
         website_name = generate_website_name(original_prompt)
-        print(f"🏷️ Website name: {website_name}")
+        print(f"Website name: {website_name}")
         
         # Get the list of pages with a more structured prompt
         pages_prompt = f"""For a website about {original_prompt}, list exactly 3-5 essential pages.
@@ -616,7 +616,7 @@ Example response: Home, About, Services, Contact"""
                 pages.remove('Home')
             pages = ['Home'] + pages
             
-            print(f"📋 Pages: {', '.join(pages)}")
+            print(f"Pages: {', '.join(pages)}")
             
         except Exception as e:
             # Use default pages if there's an error
@@ -651,7 +651,7 @@ Technical Requirements:
 
 You MUST provide exactly three code blocks: HTML, CSS, and JavaScript.'''
         
-        print(f"🔄 Generating {len(pages)} pages...")
+        print(f"Generating {len(pages)} pages...")
         result_queue = queue.Queue()
         threads = []
         
@@ -683,7 +683,7 @@ You MUST provide exactly three code blocks: HTML, CSS, and JavaScript.'''
             try:
                 update_html_with_navbar(folder_name, generated_pages)
                 update_navbar_links(folder_name, generated_pages)
-                print("🔗 Navbar updated successfully!")
+                print("Navbar updated successfully!")
             except Exception as e:
                 # Continue even if navbar update fails
                 pass
@@ -692,10 +692,9 @@ You MUST provide exactly three code blocks: HTML, CSS, and JavaScript.'''
         zip_path, zip_filename = create_website_zip(folder_name, website_name)
         
         if zip_path and os.path.exists(zip_path):
-            print(f"📦 ZIP created: {zip_filename}")
-            print(f"📁 Folder: {folder_name}")
-            print("="*60)
-            print("🎉 WEBSITE GENERATION COMPLETED!")
+            print(f"ZIP created: {zip_filename}")
+            print(f"Folder: {folder_name}")
+            print("WEBSITE GENERATION COMPLETED!")
             print("="*60)
             
             return jsonify({
@@ -763,9 +762,9 @@ if __name__ == "__main__":
     os.makedirs('temp_zips', exist_ok=True)
     
     print("=" * 50)
-    print("🚀 Flask App Starting...")
-    print("📱 Open your browser and go to: http://127.0.0.1:5000")
-    print("🔗 Or click this link: http://localhost:5000")
-    print("=" * 50)
+    print("Flask App Starting...")
+    print("Open your browser and go to: http://127.0.0.1:5000")
+    print("click this link: http://localhost:5000")
+    
     
     app.run(debug=True)
