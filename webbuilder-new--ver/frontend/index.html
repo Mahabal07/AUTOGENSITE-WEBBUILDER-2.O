@@ -5,12 +5,128 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code Generator</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Additional interactive styles */
+    .container {
+      position: relative;
+      z-index: 2;
+    }
+    
+    .floating-particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+    
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: rgba(79, 172, 254, 0.6);
+      border-radius: 50%;
+      animation: float 6s infinite linear;
+    }
+    
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      90% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100px) rotate(360deg);
+        opacity: 0;
+      }
+    }
+    
+    .typing-animation {
+      overflow: hidden;
+      border-right: 2px solid #4facfe;
+      white-space: nowrap;
+      animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+    }
+    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #4facfe; }
+    }
+    
+    .btn-hover-effect {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .btn-hover-effect::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: width 0.6s, height 0.6s;
+    }
+    
+    .btn-hover-effect:hover::after {
+      width: 300px;
+      height: 300px;
+    }
+    
+    .card-flip {
+      perspective: 1000px;
+    }
+    
+    .card-flip-inner {
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+    
+    .card-flip:hover .card-flip-inner {
+      transform: rotateY(5deg);
+    }
+    
+    .animate-pulse {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: .5;
+      }
+    }
+  </style>
 </head>
 <body>
+  <!-- Floating Particles -->
+  <div class="floating-particles" id="particles"></div>
+
   <div class="container">
-    <h1>Code Generator</h1>
-    <textarea id="prompt" placeholder="Enter your prompt"></textarea>
-    <button id="generate-btn">Generate</button>
+    <h1 class="typing-animation">Code Generator</h1>
+    <div class="card-flip">
+      <div class="card-flip-inner">
+        <textarea id="prompt" placeholder="Enter your prompt" class="animate-pulse"></textarea>
+        <button id="generate-btn" class="btn-hover-effect">Generate</button>
+      </div>
+    </div>
     
     <!-- Added Progress Bar Container -->
     <div class="progress-container" style="display: none;">
@@ -20,14 +136,57 @@
       <div class="progress-status">Generating pages: <span id="progress-text">0%</span></div>
     </div>
 
-    <div id="code-container">
-      <pre id="html-code"></pre>
-      <pre id="css-code"></pre>
-      <pre id="js-code"></pre>
+    <div id="code-container" class="card-flip">
+      <div class="card-flip-inner">
+        <pre id="html-code"></pre>
+        <pre id="css-code"></pre>
+        <pre id="js-code"></pre>
+      </div>
     </div>
-    <button id="save-btn">Save to Folder</button>
+    <button id="save-btn" class="btn-hover-effect">Save to Folder</button>
   </div>
 
   <script src="script.js"></script>
+  <script>
+    // Create floating particles
+    function createParticles() {
+      const particlesContainer = document.getElementById('particles');
+      const particleCount = 20;
+      
+      for (let i = 0; i < particleCount; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.animationDelay = Math.random() * 6 + 's';
+        particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+        particlesContainer.appendChild(particle);
+      }
+    }
+
+    // Initialize particles
+    createParticles();
+
+    // Add hover effects for interactive elements
+    document.addEventListener('DOMContentLoaded', function() {
+      const buttons = document.querySelectorAll('button');
+      buttons.forEach(button => {
+        button.addEventListener('mouseenter', function() {
+          this.style.transform = 'scale(1.05)';
+        });
+        button.addEventListener('mouseleave', function() {
+          this.style.transform = 'scale(1)';
+        });
+      });
+
+      // Add focus effects for textarea
+      const textarea = document.getElementById('prompt');
+      textarea.addEventListener('focus', function() {
+        this.style.transform = 'scale(1.02)';
+      });
+      textarea.addEventListener('blur', function() {
+        this.style.transform = 'scale(1)';
+      });
+    });
+  </script>
 </body>
 </html>

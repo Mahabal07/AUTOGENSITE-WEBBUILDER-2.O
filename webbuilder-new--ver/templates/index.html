@@ -111,6 +111,10 @@
                     <a href="#" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Home</a>
                     <a href="#" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Features</a>
                     <a href="#" class="nav-link px-3 py-2 rounded-md text-sm font-medium">About</a>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-gray-300 text-sm">Welcome, <span id="username-display"></span></span>
+                        <a href="#" onclick="logout()" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-red-400">Logout</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -210,6 +214,22 @@
     </div>
 
     <script>
+        // Display username if available
+        document.addEventListener('DOMContentLoaded', async function() {
+            const usernameDisplay = document.getElementById('username-display');
+            try {
+                const response = await fetch('/user/info');
+                if (response.ok) {
+                    const userData = await response.json();
+                    usernameDisplay.textContent = userData.username;
+                } else {
+                    usernameDisplay.textContent = 'User';
+                }
+            } catch (error) {
+                usernameDisplay.textContent = 'User';
+            }
+        });
+
         document.getElementById('promptForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             
@@ -250,6 +270,20 @@
                 submitButton.disabled = false;
             }
         });
+
+        // Logout function
+        async function logout() {
+            try {
+                const response = await fetch('/logout');
+                if (response.ok) {
+                    window.location.href = '/login';
+                } else {
+                    alert('Logout failed. Please try again.');
+                }
+            } catch (error) {
+                alert('An error occurred during logout.');
+            }
+        }
     </script>
 </body>
 </html>

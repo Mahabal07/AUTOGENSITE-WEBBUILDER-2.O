@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AutoSiteGen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #1a1c2e 0%, #2d1b69 100%);
+            min-height: 100vh;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.03) 50%, transparent 70%);
+            transform: translateX(-100%);
+            transition: transform 0.6s;
+        }
+        .glass-card:hover::before {
+            transform: translateX(100%);
+        }
+        .input-field {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .input-field:focus {
+            box-shadow: 0 0 20px rgba(79, 172, 254, 0.3);
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .input-field::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .input-field::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s;
+        }
+        .input-field:focus::before {
+            left: 100%;
+        }
+        .gradient-button {
+            background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .gradient-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+        .gradient-button:hover::before {
+            left: 100%;
+        }
+        .gradient-button:hover {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px rgba(79, 172, 254, 0.4);
+        }
+        .error-message {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            animation: shake 0.5s ease-in-out;
+        }
+        .success-message {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            animation: slideIn 0.5s ease-out;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Floating particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(79, 172, 254, 0.6);
+            border-radius: 50%;
+            animation: float 6s infinite linear;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        /* Typing animation */
+        .typing-animation {
+            overflow: hidden;
+            border-right: 2px solid #4facfe;
+            white-space: nowrap;
+            animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #4facfe; }
+        }
+        
+        /* Card flip animation */
+        .card-flip {
+            perspective: 1000px;
+        }
+        .card-flip-inner {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .card-flip:hover .card-flip-inner {
+            transform: rotateY(5deg);
+        }
+        
+        /* Hover effects for buttons */
+        .btn-hover-effect {
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-hover-effect::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        .btn-hover-effect:hover::after {
+            width: 300px;
+            height: 300px;
+        }
+        
+        /* Input focus animation */
+        .input-container {
+            position: relative;
+        }
+        .input-container::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #00f2fe, #4facfe);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+        .input-container:focus-within::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="text-gray-100">
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <div class="min-h-screen flex items-center justify-center px-4">
+        <div class="max-w-md w-full">
+            <!-- Logo and Title -->
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold gradient-text mb-2 typing-animation">AutoSiteGen</h1>
+                <p class="text-gray-300 animate-pulse">Sign in to your account</p>
+            </div>
+
+            <!-- Login Form -->
+            <div class="glass-card rounded-2xl p-8 shadow-lg card-flip">
+                <div class="card-flip-inner">
+                    <form id="loginForm" class="space-y-6">
+                        <div class="input-container">
+                            <label for="username" class="block text-sm font-medium text-gray-300 mb-2">Username</label>
+                            <input
+                                type="text"
+                                id="username"
+                                name="username"
+                                class="input-field w-full px-4 py-3 rounded-xl text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                placeholder="Enter your username"
+                                required
+                            >
+                        </div>
+                        <div class="input-container">
+                            <label for="password" class="block text-sm font-medium text-gray-300 mb-2">Password</label>
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                class="input-field w-full px-4 py-3 rounded-xl text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                placeholder="Enter your password"
+                                required
+                            >
+                        </div>
+                        <div>
+                            <button
+                                type="submit"
+                                class="gradient-button btn-hover-effect w-full px-6 py-3 text-white font-medium rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 transition-all duration-200"
+                            >
+                                <span class="relative z-10">Sign In</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Register Link -->
+                    <div class="mt-6 text-center">
+                        <p class="text-gray-300">
+                            Don't have an account? 
+                            <a href="/register" class="text-blue-400 hover:text-blue-300 transition-colors hover:underline">Register here</a>
+                        </p>
+                    </div>
+
+                    <!-- Messages -->
+                    <div id="message" class="mt-4 p-4 rounded-lg hidden"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 15;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Initialize particles
+        createParticles();
+
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const messageDiv = document.getElementById('message');
+            const submitButton = e.target.querySelector('button[type="submit"]');
+            
+            // Clear previous messages
+            messageDiv.className = 'mt-4 p-4 rounded-lg hidden';
+            messageDiv.textContent = '';
+            
+            // Disable button during request
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<span class="relative z-10">Signing In...</span>';
+            
+            try {
+                const response = await fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ username, password }),
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    // Show success message
+                    messageDiv.className = 'mt-4 p-4 rounded-lg success-message';
+                    messageDiv.textContent = data.message;
+                    
+                    // Redirect to dashboard after a short delay
+                    setTimeout(() => {
+                        window.location.href = '/';
+                    }, 1500);
+                } else {
+                    // Show error message
+                    messageDiv.className = 'mt-4 p-4 rounded-lg error-message';
+                    messageDiv.textContent = data.error || 'Login failed. Please try again.';
+                }
+            } catch (error) {
+                messageDiv.className = 'mt-4 p-4 rounded-lg error-message';
+                messageDiv.textContent = 'An error occurred. Please try again.';
+            } finally {
+                submitButton.disabled = false;
+                submitButton.innerHTML = '<span class="relative z-10">Sign In</span>';
+            }
+        });
+
+        // Add hover effects for interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('button, a');
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.02)';
+                });
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+
+            // Add focus effects for inputs
+            const inputs = document.querySelectorAll('input');
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.parentElement.style.transform = 'scale(1.02)';
+                });
+                input.addEventListener('blur', function() {
+                    this.parentElement.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

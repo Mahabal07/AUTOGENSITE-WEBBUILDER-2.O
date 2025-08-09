@@ -1,5 +1,5 @@
 import logging
-from flask import Flask, request, jsonify, render_template, send_from_directory, send_file
+from flask import Flask, request, jsonify, render_template, send_from_directory, send_file, session, redirect
 import os
 import random
 import string
@@ -14,9 +14,12 @@ from datetime import datetime, timedelta
 import asyncio
 import platform
 import time
+import json
+from werkzeug.security import generate_password_hash, check_password_hash
+from functools import wraps
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBWA7c957D_D_QajBuizkRFh5k7_46uugg")
+genai.configure(api_key="AIzaSyCZvogSYxbWvmc4E-9e9dwICgvfZT-h5wQ")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Alternative free AI model (Hugging Face)
@@ -546,12 +549,124 @@ def create_website_zip(folder_name, website_name):
         print(f"Error creating ZIP file: {str(e)}")
         return None, None
 
+app.config['SECRET_KEY'] = 'your_secret_key'  # Needed for session management
+USERS_FILE = 'users.json'
+
+def load_users():
+    try:
+        with open(USERS_FILE, 'r') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_users(users):
+    with open(USERS_FILE, 'w') as f:
+        json.dump(users, f, indent=2)
+
+def find_user(username):
+    users = load_users()
+    for user in users:
+        if user['username'] == username:
+            return user
+    return None
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'username' not in session:
+            return jsonify({'error': 'Login required'}), 401
+        return f(*args, **kwargs)
+    return decorated_function
+
+def admin_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if not session.get('is_admin'):
+            return jsonify({'error': 'Admin access required'}), 403
+        return f(*args, **kwargs)
+    return decorated_function
+
+@app.route('/register', methods=['POST'])
+def register():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+    is_admin = data.get('is_admin', False)
+
+    if not username or not password:
+        return jsonify({'error': 'Username and password required'}), 400
+
+    if find_user(username):
+        return jsonify({'error': 'Username already exists'}), 400
+
+    hashed_pw = generate_password_hash(password)
+    users = load_users()
+    users.append({
+        'username': username,
+        'password': hashed_pw,
+        'is_admin': is_admin
+    })
+    save_users(users)
+    return jsonify({'message': 'User registered successfully'})
+
+@app.route('/login', methods=['POST'])
+def login():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+
+    user = find_user(username)
+    if user and check_password_hash(user['password'], password):
+        session['username'] = username
+        session['is_admin'] = user.get('is_admin', False)
+        return jsonify({'message': 'Login successful', 'is_admin': user.get('is_admin', False)})
+    else:
+        return jsonify({'error': 'Invalid credentials'}), 401
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return jsonify({'message': 'Logged out successfully'})
+
+@app.route('/admin/dashboard')
+@admin_required
+def admin_dashboard():
+    return jsonify({'message': 'Welcome, admin!'})
+
+@app.route('/user/dashboard')
+@login_required
+def user_dashboard():
+    return jsonify({'message': f"Welcome, {session['username']}!"})
+
+@app.route('/user/info')
+@login_required
+def user_info():
+    return jsonify({
+        'username': session['username'],
+        'is_admin': session.get('is_admin', False)
+    })
+
 @app.route('/')
 def index():
+    if 'username' not in session:
+        return redirect('/login')
     return render_template('index.html')
+
+@app.route('/login')
+def login_page():
+    if 'username' in session:
+        return redirect('/')
+    return render_template('login.html')
+
+@app.route('/register')
+def register_page():
+    if 'username' in session:
+        return redirect('/')
+    return render_template('register.html')
 
 # Generate pages route
 @app.route('/generate', methods=['POST'])
+@login_required
 def generate():
     try:
         print("\n" + "="*60)
@@ -715,6 +830,7 @@ You MUST provide exactly three code blocks: HTML, CSS, and JavaScript.'''
 
 # Route to serve generated files
 @app.route('/view/<folder>/<path:filename>')
+@login_required
 def view(folder, filename):
     # Handle both index.html and home.html for the home page
     if filename == 'index.html':
@@ -725,6 +841,7 @@ def view(folder, filename):
 
 # New route to download the website as ZIP
 @app.route('/download/<folder>')
+@login_required
 def download_website(folder):
     try:
         # Get the website name from the folder's index.html

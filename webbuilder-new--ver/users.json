@@ -1,0 +1,17 @@
+[
+  {
+    "username": "admin",
+    "password": "scrypt:32768:8:1$huQaQQP4w8ipgVgQ$0adfef9f349144a9f5f1de49a9bc2f7f43a5abbaea07402c27f025b1281b387e6dddfce4a6f55596923ca170d09a897ef2d53558ff02c9cee5020e0953268415",
+    "is_admin": true
+  },
+  {
+    "username": "mahabal",
+    "password": "scrypt:32768:8:1$htuFez6l6TCgTOTg$27048bbf3d766595158bcd212d6de76a307fe6e18ba6a2a430b9548e0c5a75367345f5b14e4d8505e1db8a93675025a9c1227862ec6522e0c81dc7d3c762707c",
+    "is_admin": false
+  },
+  {
+    "username": "bob",
+    "password": "scrypt:32768:8:1$9idprSK7MeW6w7dV$958a59777170acd59fff301266cff95f1e8a88e72443e67135c517a945f19df579fcbc553a634a9d90c9f5eb8d8107081aa9215ab9afa9f002ce994e9473ecb4",
+    "is_admin": false
+  }
+]
